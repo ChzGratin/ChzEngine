@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{30605489-beca-48bb-882a-18d19070f8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games">
+      <UniqueIdentifier>{df9a2364-eb78-4bbc-990e-62abf256c8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ChzEngine">
+      <UniqueIdentifier>{6198404c-7c7a-459e-9b65-db7bd43df2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\main">
+      <UniqueIdentifier>{3f5843a2-6377-44cf-bbf0-434a2be3e43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{8b8dd5df-8a33-4bf5-9a43-3146156ded07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{d3c3ebdd-d979-4707-97af-65185c3f03a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Config">
+      <UniqueIdentifier>{ee94a7fa-a160-49e4-b1e1-b9c019b496b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Scenes">
+      <UniqueIdentifier>{b8b6b7b3-a067-4499-8134-8854b12e1482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Scenes\NewWorld">
+      <UniqueIdentifier>{4d1c840c-fb8a-4ac1-aa03-7e288a76d198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Scenes\Title">
+      <UniqueIdentifier>{c5f15934-02f1-4798-b3a3-42b5d6a73795}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\ChzEngine\ChzEngine.cpp">
+      <Filter>Engine\ChzEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\main\main.cpp">
+      <Filter>Engine\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager\SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\Config\insertScenes.cpp">
+      <Filter>Games\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\Scenes\Title\Title.cpp">
+      <Filter>Games\Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\Scenes\NewWorld\NewWorld.cpp">
+      <Filter>Games\Scenes\NewWorld</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\ChzEngine\ChzEngine.h">
+      <Filter>Engine\ChzEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager\SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\Scenes\Title\Title.h">
+      <Filter>Games\Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\Scenes\NewWorld\NewWorld.h">
+      <Filter>Games\Scenes\NewWorld</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
